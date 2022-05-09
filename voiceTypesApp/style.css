@@ -1,0 +1,35 @@
+.hidden {
+    display: none;
+}
+
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 30px 200px;
+}
+
+li {
+    background-color: plum;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+    list-style-type: none;
+    margin: 15px 500px;
+}
+
+li:hover {
+    background-color: palevioletred;
+}
